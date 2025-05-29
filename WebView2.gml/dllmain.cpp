@@ -149,7 +149,7 @@ dllx double webview2_async_result_exists(double num) {
 
 dllx char* webview2_async_result_get(double num) {
     int id = (int)num;
-    if (async_output.count(id) == 1 && false) {
+    if (async_output.count(id) == 1) {
         char* out = wstr_to_char_array(async_output.at(num));
         std::cout << "Value found! - " << out;
         return out;

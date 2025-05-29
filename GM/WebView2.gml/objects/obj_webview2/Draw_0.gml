@@ -1,0 +1,1 @@
+draw_text(4,4,$"WebView2 Ready: {webview2_ready}");
